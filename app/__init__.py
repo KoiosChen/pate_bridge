@@ -1,6 +1,8 @@
 from flask import Flask, request
 import logging
 import queue
+import flask.scaffold
+flask.helpers._endpoint_from_view_func = flask.scaffold._endpoint_from_view_func
 from flask_restplus import Api
 from werkzeug.middleware.proxy_fix import ProxyFix
 

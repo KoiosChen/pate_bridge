@@ -1,0 +1,31 @@
+2021/08/22 15:32:38 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/22 15:32:38 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/22 15:32:59 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:32:59] "GET / HTTP/1.1" 200 -
+2021/08/22 15:32:59 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:32:59] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+2021/08/22 15:32:59 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:32:59] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+2021/08/22 15:32:59 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:32:59] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+2021/08/22 15:32:59 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:32:59] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2021/08/22 15:33:00 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:33:00] "GET /api/swagger.json HTTP/1.1" 200 -
+2021/08/22 15:33:00 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:33:00] "GET /swaggerui/favicon-16x16.png HTTP/1.1" 200 -
+2021/08/22 15:33:00 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:33:00] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+2021/08/22 15:34:11 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/22 15:34:11 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/22 15:34:13 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:13] "GET / HTTP/1.1" 200 -
+2021/08/22 15:34:13 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:13] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2021/08/22 15:34:13 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:13] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021/08/22 15:34:13 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:13] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021/08/22 15:34:13 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:13] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2021/08/22 15:34:13 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:13] "GET /api/swagger.json HTTP/1.1" 200 -
+2021/08/22 15:34:53 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:53] "GET / HTTP/1.1" 200 -
+2021/08/22 15:34:53 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:53] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2021/08/22 15:34:53 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:53] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2021/08/22 15:34:53 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:53] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021/08/22 15:34:53 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:53] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021/08/22 15:34:53 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:34:53] "GET /api/swagger.json HTTP/1.1" 200 -
+2021/08/22 15:35:02 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/22 15:35:02 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/22 15:35:14 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/22 15:35:14 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:35:14] "POST /api/pate/start_contract?image=123&futures_contract=123&product_name=123 HTTP/1.1" 200 -

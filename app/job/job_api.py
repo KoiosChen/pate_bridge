@@ -8,8 +8,8 @@ return_dict = {'code': fields.String(required=True, description='success | false
                'data': fields.Raw(description='string or json'),
                'message': fields.String(description='成功或者失败的文字信息')}
 
-pate_bridge_ns = default_api.namespace('algocap', path='/algocap',
-                                       description='抓包脚本配置下载接口')
+pate_bridge_ns = default_api.namespace('启动策略', path='/pate',
+                                       description='通过POST方法启动指定合约的策略')
 
 return_json = pate_bridge_ns.model('ReturnRegister', return_dict)
 

@@ -1,5 +1,5 @@
 import threading
-from .. import logger, work_q
+from .. import logger, work_q, redis_db
 from app.docker import jobs
 
 
@@ -11,8 +11,11 @@ class StartThread(threading.Thread):
     def run(self):
         while True:
             docker_run = self.queue.get()
+            job_id = docker_run.pop['job_id']
             logger.debug(f'starting docker {docker_run}')
-            jobs.start(**docker_run)
+            contain_id = jobs.start(**docker_run)
+            redis_db.set(job_id, contain_id)
+            redis_db.expire(job_id, 3600)
             self.queue.task_done()
 
 

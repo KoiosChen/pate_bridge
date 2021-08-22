@@ -5,6 +5,7 @@ import flask.scaffold
 flask.helpers._endpoint_from_view_func = flask.scaffold._endpoint_from_view_func
 from flask_restplus import Api
 from werkzeug.middleware.proxy_fix import ProxyFix
+import redis
 
 # class SQLAlchemy(SQLAlchemyBase):
 #     def apply_driver_hacks(self, app, info, options):
@@ -31,6 +32,8 @@ formatter = logging.Formatter(fmt='%(asctime)s - %(module)s-%(funcName)s - %(lev
 hdlr.setFormatter(formatter)
 logger.addHandler(hdlr)
 logger.setLevel(logging.DEBUG)
+
+redis_db = redis.Redis(host='localhost', port=6379, db=3, decode_responses=True)
 
 
 def create_app(config_name):

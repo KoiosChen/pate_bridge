@@ -1,8 +1,10 @@
-from app import default_api, logger
+from app import default_api, logger, work_q
 from flask_restplus import Resource, reqparse, fields
 from app.decorate import permission_ip
 from app.docker import jobs
 from app.common import success_return, false_return
+import uuid
+import traceback
 
 return_dict = {'code': fields.String(required=True, description='success | false'),
                'data': fields.Raw(description='string or json'),
@@ -17,6 +19,7 @@ PermissionIP = ['10.100.25.238', '127.0.0.1']
 
 job_parser = reqparse.RequestParser()
 job_parser.add_argument('image', required=True, help='image名称')
+job_parser.add_argument('network', required=True, help='ip:service_port:source_port')
 job_parser.add_argument('futures_contract', help='合约名称')
 job_parser.add_argument('product_name', help='产品名称')
 
@@ -31,11 +34,16 @@ class PateBridge(Resource):
         启动指定合约
         """
         args = job_parser.parse_args()
-        image_name = args['image']
-        product_name = args['product_name']
-        contract_name = args['futures_contract']
+        job_id = str(uuid.uuid4())
+        docker_run = {"id": job_id,
+                      "network_mapping": args['network'],
+                      "image_name": args['image'],
+                      "product_name": args['product_name'],
+                      "futures_contract": args['futures_contract']}
         try:
-            return success_return(data=jobs.start(image_name, product_name, contract_name))
+            work_q.put(docker_run)
+            return success_return(data={"id": job_id}, message="job is put in the queue.")
         except Exception as e:
             logger.error(str(e))
+            traceback.print_exc()
             return false_return(), 404

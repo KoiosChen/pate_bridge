@@ -19,10 +19,7 @@ def start(network_mapping, image_name, product_name, contract_name, local_volume
     if image_name:
         docker_params = " ".join([docker_params, "-d", image_name])
 
-    if
-
-    contain_id = os.popen(
-        f'{docker_params} -p {ip}:{out_port}:{in_port} -d {image_name} {product_name} {contract_name} -v {local_volume}')
+    contain_id = os.popen(docker_params)
     return contain_id
 
 

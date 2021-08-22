@@ -2,9 +2,11 @@ from app import default_api, logger, work_q
 from flask_restplus import Resource, reqparse, fields
 from app.decorate import permission_ip
 from app.docker import jobs
+from app.type_validation import check_semicolon
 from app.common import success_return, false_return
 import uuid
 import traceback
+import re
 
 return_dict = {'code': fields.String(required=True, description='success | false'),
                'data': fields.Raw(description='string or json'),
@@ -15,13 +17,13 @@ pate_bridge_ns = default_api.namespace('启动策略', path='/pate',
 
 return_json = pate_bridge_ns.model('ReturnRegister', return_dict)
 
-PermissionIP = ['10.100.25.238', '127.0.0.1']
+PermissionIP = ['10.100.25.238', '127.0.0.1', '192.168.16.121']
 
 job_parser = reqparse.RequestParser()
-job_parser.add_argument('image', required=True, help='image名称')
-job_parser.add_argument('network', required=True, help='ip:service_port:source_port')
-job_parser.add_argument('futures_contract', help='合约名称')
-job_parser.add_argument('product_name', help='产品名称')
+job_parser.add_argument('image', required=True, type=check_semicolon, help='image名称')
+job_parser.add_argument('network', required=True, type=check_semicolon, help='网络映射配置，格式：ip:service_port:source_port')
+job_parser.add_argument('futures_contract', type=check_semicolon, help='合约名称')
+job_parser.add_argument('product_name', type=check_semicolon, help='产品名称')
 
 
 @pate_bridge_ns.route('/start_contract')
@@ -35,7 +37,7 @@ class PateBridge(Resource):
         """
         args = job_parser.parse_args()
         job_id = str(uuid.uuid4())
-        docker_run = {"id": job_id,
+        docker_run = {"job_id": job_id,
                       "network_mapping": args['network'],
                       "image_name": args['image'],
                       "product_name": args['product_name'],

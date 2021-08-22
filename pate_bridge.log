@@ -29,3 +29,92 @@
 2021/08/22 15:35:02 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
 2021/08/22 15:35:14 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
 2021/08/22 15:35:14 - _internal-_log - INFO - 192.168.16.121 - - [22/Aug/2021 15:35:14] "POST /api/pate/start_contract?image=123&futures_contract=123&product_name=123 HTTP/1.1" 200 -
+2021/08/23 00:02:37 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:02:37 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:02:45 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:02:45] "GET / HTTP/1.1" 200 -
+2021/08/23 00:02:45 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:02:45] "[36mGET /swaggerui/favicon-16x16.png HTTP/1.1[0m" 304 -
+2021/08/23 00:02:45 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:02:45] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021/08/23 00:02:45 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:02:45] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+2021/08/23 00:02:45 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:02:45] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021/08/23 00:02:45 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:02:45] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2021/08/23 00:02:45 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:02:45] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2021/08/23 00:02:45 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:02:45] "GET /api/swagger.json HTTP/1.1" 200 -
+2021/08/23 00:03:19 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:03:19 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:03:26 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:03:26 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:03:26] "POST /api/pate/start_contract?image=123&network=1%3B123 HTTP/1.1" 200 -
+2021/08/23 00:04:07 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:04:07 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:04:10 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:04:10 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:04:10] "[31m[1mPOST /api/pate/start_contract?image=123&network=1%3B123 HTTP/1.1[0m" 400 -
+2021/08/23 00:04:51 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:04:51 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:04:52 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:04:52 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:04:52] "[31m[1mPOST /api/pate/start_contract?image=123&network=1%3B123 HTTP/1.1[0m" 400 -
+2021/08/23 00:05:03 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:05:03 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:05:03] "POST /api/pate/start_contract?image=123&network=1123 HTTP/1.1" 200 -
+2021/08/23 00:15:10 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:15:10 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:15:16 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:15:16] "GET / HTTP/1.1" 200 -
+2021/08/23 00:15:16 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:15:16] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2021/08/23 00:15:16 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:15:16] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2021/08/23 00:15:16 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:15:16] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2021/08/23 00:15:16 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:15:16] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2021/08/23 00:15:17 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:15:17] "GET /api/swagger.json HTTP/1.1" 200 -
+2021/08/23 00:15:31 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:15:31 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:15:31] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:15:50 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:15:50 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:15:52 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:15:52 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:15:52] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:16:07 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:16:07 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:16:07] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:16:24 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:16:24 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:16:45 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:16:45 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:16:45] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:16:54 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:16:54 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:16:54] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:17:08 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:17:08 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:17:14 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:17:14 - AllocateQueueWork-run - DEBUG - starting docker {'network_mapping': '2', 'image_name': '1', 'product_name': '4', 'futures_contract': '3'}
+2021/08/23 00:17:14 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:17:14] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:17:20 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:17:20 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:17:20] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:17:20 - AllocateQueueWork-run - DEBUG - starting docker {'network_mapping': '2', 'image_name': '1', 'product_name': '4', 'futures_contract': '3'}
+2021/08/23 00:18:19 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:18:19 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:18:23 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:18:23 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:18:23] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:18:35 - AllocateQueueWork-run - DEBUG - starting docker {'network_mapping': '2', 'image_name': '1', 'product_name': '4', 'futures_contract': '3'}
+2021/08/23 00:18:41 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:18:41 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:18:41] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:18:41 - AllocateQueueWork-run - DEBUG - starting docker {'network_mapping': '2', 'image_name': '1', 'product_name': '4', 'futures_contract': '3'}
+2021/08/23 00:18:43 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:18:43 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:18:43] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:18:43 - AllocateQueueWork-run - DEBUG - starting docker {'network_mapping': '2', 'image_name': '1', 'product_name': '4', 'futures_contract': '3'}
+2021/08/23 00:18:50 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:18:50 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:18:58 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:18:58 - AllocateQueueWork-run - DEBUG - starting docker {'network_mapping': '2', 'image_name': '1', 'product_name': '4', 'futures_contract': '3'}
+2021/08/23 00:18:58 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:18:58] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:19:08 - _internal-_log - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021/08/23 00:19:08 - _internal-_log - INFO -  * Running on http://192.168.16.121:22222/ (Press CTRL+C to quit)
+2021/08/23 00:19:31 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:19:31 - AllocateQueueWork-run - DEBUG - starting docker {'network_mapping': '2', 'image_name': '1', 'product_name': '4', 'futures_contract': '3'}
+2021/08/23 00:19:31 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:19:31] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -
+2021/08/23 00:19:46 - decorate-decorated_fuction - INFO - IP 192.168.16.121 is getting insurance proposal
+2021/08/23 00:19:53 - AllocateQueueWork-run - DEBUG - starting docker {'network_mapping': '2', 'image_name': '1', 'product_name': '4', 'futures_contract': '3'}
+2021/08/23 00:19:55 - _internal-_log - INFO - 192.168.16.121 - - [23/Aug/2021 00:19:55] "POST /api/pate/start_contract?image=1&network=2&futures_contract=3&product_name=4 HTTP/1.1" 200 -

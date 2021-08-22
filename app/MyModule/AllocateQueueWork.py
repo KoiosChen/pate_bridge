@@ -11,7 +11,7 @@ class StartThread(threading.Thread):
     def run(self):
         while True:
             docker_run = self.queue.get()
-            job_id = docker_run.pop['job_id']
+            job_id = docker_run.pop('job_id')
             logger.debug(f'starting docker {docker_run}')
             contain_id = jobs.start(**docker_run)
             redis_db.set(job_id, contain_id)
